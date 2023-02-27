@@ -167,7 +167,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="play again"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="r8V-wW-EA1"/>
+                                    <action selector="playAgainButton:" destination="5mm-Sy-2DB" eventType="touchUpInside" id="7nC-Fl-4i3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -183,6 +183,7 @@
                     <navigationItem key="navigationItem" id="veG-og-ZKf"/>
                     <connections>
                         <outlet property="FinalLabel" destination="fIP-55-Drz" id="yAl-nL-dMd"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="page1" modalPresentationStyle="fullScreen" id="CAj-IJ-jYN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wyj-lH-1Tf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
